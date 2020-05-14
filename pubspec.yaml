@@ -1,0 +1,33 @@
+name: ieatta
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  cloud_firestore: ^0.13.0
+  cupertino_icons: ^0.1.0
+  device_preview: ^0.4.0
+  easy_google_maps: ^1.0.0
+  equatable: ^1.1.0
+  firebase_auth: ^0.16.0
+  firebase_remote_config: ^0.3.0
+  flutter:
+    sdk: flutter
+  flutter_auth_buttons: ^0.8.0
+  flutter_bloc: ^4.0.0
+  get_it: ^3.1.0
+  google_sign_in: ^4.4.0
+  intl: ^0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
